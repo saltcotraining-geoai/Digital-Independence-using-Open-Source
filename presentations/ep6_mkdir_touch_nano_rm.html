@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ep 6 — Create Like a Pro</title><link rel="stylesheet" href="presentation.css"></head><body>
+<div class="counter" id="counter">1 / 10</div>
+<div class="slide active" id="s1"><h1>EPISODE 6</h1><h2>Create Like a Pro</h2><h3 class="highlight">mkdir • touch • nano • rm</h3><div class="overlay">Terminal = Faster File Manager</div></div>
+<div class="slide" id="s2"><h1>mkdir — Make Folders</h1><div class="overlay">mkdir = <span style="color:#fff;">Make Directory</span> = New Folder</div><div class="code" style="margin-top:20px;">student@mx:~$ mkdir School<br>student@mx:~$ mkdir School/Math School/Science School/English</div><p style="margin-top:15px;font-size:22px;"><span class="highlight">3 folders in one line!</span><br>Try doing that with right-click → New Folder</p></div>
+<div class="slide" id="s3"><h1>touch — Create Files</h1><div class="overlay">touch = <span style="color:#fff;">Create empty file</span></div><div class="code" style="margin-top:20px;">student@mx:~$ cd School/Math<br>student@mx:~/School/Math$ touch homework.txt</div><p style="margin-top:15px;font-size:20px;">Look in the file manager — a blank file appeared!</p></div>
+<div class="slide" id="s4"><h1>nano — Edit Text</h1><div class="overlay">nano = <span style="color:#fff;">Simple text editor</span> (inside terminal)</div><div class="code" style="margin-top:20px;">student@mx:~/School/Math$ nano homework.txt</div><p style="margin-top:15px;font-size:20px;">Type your text → <span class="highlight">Ctrl + X</span> to exit<br>→ <span class="highlight">Y</span> to save → <span class="highlight">Enter</span> to confirm</p><p style="font-size:18px;opacity:0.6;margin-top:10px;">Open the file in file manager to see your text</p></div>
+<div class="slide" id="s5"><h1>rm — DELETE (⚠️ WARNING)</h1><div class="overlay warn-box" style="font-size:36px;">⚠️ rm = NO TRASH BIN<br>DELETED FOREVER</div><p style="font-size:22px;margin:20px 0;">On Windows: Delete → Recycle Bin (can undo)<br>On Terminal: rm → <span class="warn">GONE FOREVER</span></p></div>
+<div class="slide" id="s6"><h1>Safe Delete</h1><div class="overlay" style="font-size:36px;">rm -i = Ask before deleting</div><div class="code" style="margin-top:20px;">student@mx:~$ rm -i homework.txt<br>rm: remove regular file 'homework.txt'? y</div><p style="margin-top:15px;font-size:20px;">The <span class="highlight">-i</span> flag = "interactive"<br>Linux asks "Are you sure?" before each delete</p><div class="overlay" style="margin-top:20px;font-size:22px;">✅ Use <span class="highlight">rm -i</span> until you're comfortable!</div></div>
+<div class="slide" id="s7"><h1>Important Rule</h1><ul style="max-width:600px;"><li>Terminal has NO undo button</li><li>No Trash Bin to recover from</li><li>No "Are you sure?" pop-up (unless you use -i)</li><li>Always double-check before pressing Enter</li></ul><div class="overlay warn-box" style="margin-top:30px;">When in doubt — add -i !</div></div>
+<div class="slide" id="s8"><h1>Your Workflow</h1><div class="code" style="font-size:20px;line-height:2;">mkdir Projects<br>cd Projects<br>mkdir Week1 Week2 Week3<br>touch notes.txt<br>nano notes.txt<br># Type something → Ctrl+X → Y → Enter<br>ls -l<br>rm -i notes.txt</div><p style="margin-top:15px;font-size:18px;opacity:0.6;">Practice this sequence until it feels natural</p></div>
+<div class="slide" id="s9"><h1>Better than GUI?</h1><div class="grid"><div class="card center"><h3>🖱️ GUI Way</h3><p>Right-click → New Folder<br>Type "Week1" → Enter<br>Repeat 4 more times<br>= 15 clicks, 30 seconds</p></div><div class="card center"><h3>⌨️ Terminal Way</h3><p>mkdir Week1 Week2 Week3 Week4 Week5<br>= 1 line, 2 seconds</p></div></div></div>
+<div class="slide" id="s10"><h1>✅ Episode 6 Summary</h1><ul style="max-width:600px;"><li><span class="highlight">mkdir</span> = Make folder</li><li><span class="highlight">touch</span> = Create empty file</li><li><span class="highlight">nano</span> = Edit text in terminal</li><li><span class="highlight">rm</span> = Delete (⚠️ permanent!)</li><li><span class="highlight">rm -i</span> = Safe delete</li></ul><div style="margin-top:30px;font-size:20px;opacity:0.5;">Next week: Find files instantly with locate & grep!</div></div>
+<!-- THANK YOU SLIDE -->
+<div class="slide" id="thanks">
+  <h1>🙏 Thank You</h1>
+  <p style="font-size:24px;max-width:700px;line-height:1.8;">This course is free because of the open source community.</p>
+  <ul style="max-width:600px;font-size:22px;line-height:1.8;">
+    <li>The <span class="highlight">MX Linux team</span> — for building an amazing beginner-friendly distro</li>
+    <li>The <span class="highlight">Ventoy developers</span> — for making USB creation effortless</li>
+    <li><span class="highlight">Linus Torvalds</span> and thousands of Linux kernel contributors</li>
+    <li>The <span class="highlight">Debian project</span> — which MX Linux is built upon</li>
+    <li>The <span class="highlight">XFCE team</span> — for keeping the desktop lightweight</li>
+    <li>Every developer who writes free code and documentation</li>
+  </ul>
+  <p style="margin-top:30px;font-size:20px;">Open source means we are free to learn, share, and teach. 🌱</p>
+</div>
+
+<div class="nav"><button onclick="goSlide(-1)">◀ Prev</button><span id="pageNum">1</span><button onclick="goSlide(1)">Next ▶</button></div>
+<script src="presentation.js"></script></body></html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ep 7 — Find Anything in Seconds</title><link rel="stylesheet" href="presentation.css"></head><body>
+<div class="counter" id="counter">1 / 10</div>
+<div class="slide active" id="s1"><h1>EPISODE 7</h1><h2>Find Anything in Seconds</h2><h3 class="highlight">locate • grep • cp • mv</h3><div class="overlay">Terminal search uses ZERO memory — perfect for 2GB laptops!</div></div>
+<div class="slide" id="s2"><h1>The Problem</h1><p style="font-size:28px;max-width:700px;">Opening the file manager's search bar on a 2GB laptop = <span class="warn">freeze</span></p><div class="grid" style="margin-top:30px;"><div class="card center"><h3>🐌 Windows Search</h3><p>Indexes your drive while you wait<br>Uses 500MB+ RAM<br>Takes minutes</p></div><div class="card center"><h3>⚡ Terminal Search</h3><p>Uses a pre-built index<br>Uses ~1MB RAM<br>Takes 0.2 seconds</p></div></div></div>
+<div class="slide" id="s3"><h1>locate — Instant File Finder</h1><div class="overlay">locate = <span style="color:#fff;">Find files by name instantly</span></div><div class="code" style="margin-top:20px;font-size:22px;">student@mx:~$ locate homework<br>/home/student/School/Math/homework.txt</div><p style="margin-top:15px;font-size:20px;">Uses a pre-built index = <span class="highlight">almost zero RAM</span></p></div>
+<div class="slide" id="s4"><h1>Install & Update locate</h1><p style="font-size:22px;margin-bottom:20px;">If "locate" not found:</p><div class="code" style="font-size:20px;">student@mx:~$ sudo apt install mlocate<br>student@mx:~$ sudo updatedb</div><p style="margin-top:15px;font-size:20px;"><span class="highlight">sudo updatedb</span> = Builds the search index<br>Run it once after install</p></div>
+<div class="slide" id="s5"><h1>grep — Search Inside Files</h1><div class="overlay">grep = <span style="color:#fff;">Find text INSIDE files</span></div><p style="font-size:22px;margin:20px 0;">Your teacher sent 50 PDFs. Which one mentions "exam"?</p><div class="code" style="font-size:20px;">student@mx:~$ cd ~/School<br>student@mx:~/School$ grep -r "exam" .<br>./English/notes.txt:Exam is next Tuesday!</div></div>
+<div class="slide" id="s6"><h1>locate vs grep</h1><div class="grid"><div class="card center"><h3>🔍 locate</h3><p>Finds files <span class="highlight">BY NAME</span><br>locate homework<br>→ Finds the file</p></div><div class="card center"><h3>🔎 grep</h3><p>Finds text <span class="highlight">INSIDE FILES</span><br>grep -r "exam" .<br>→ Finds the word</p></div></div></div>
+<div class="slide" id="s7"><h1>cp — Copy Files</h1><div class="overlay">cp = <span style="color:#fff;">Copy files</span></div><div class="code" style="margin-top:20px;">student@mx:~$ cp homework.txt homework_backup.txt</div><p style="margin-top:15px;font-size:20px;">Creates a duplicate of the file<br>Great for making backups before editing!</p></div>
+<div class="slide" id="s8"><h1>mv — Move or Rename</h1><div class="overlay">mv = <span style="color:#fff;">Move OR Rename</span></div><p style="font-size:22px;margin:20px 0;">Move a file:</p><div class="code">student@mx:~$ mv homework.txt School/Math/</div><p style="font-size:22px;margin:20px 0;">Rename a file (same folder, new name):</p><div class="code">student@mx:~$ mv homework.txt math_notes.txt</div><p style="margin-top:15px;font-size:20px;">Same command for both actions!</p></div>
+<div class="slide" id="s9"><h1>Why This Matters on Low RAM</h1><ul style="max-width:600px;"><li>locate = instant, uses <span class="highlight">~1MB RAM</span></li><li>Windows Search = slow, uses <span class="highlight">~500MB RAM</span></li><li>grep = find text in 100 files in 2 seconds</li><li>cp + mv = no dragging folders around</li></ul><div class="overlay" style="margin-top:30px;">⚡ Your 2GB Linux searches faster than a 16GB Windows PC!</div></div>
+<div class="slide" id="s10"><h1>✅ Episode 7 Summary</h1><ul style="max-width:600px;"><li><span class="highlight">locate</span> = Find files by name (instant)</li><li><span class="highlight">grep -r</span> = Find text inside files</li><li><span class="highlight">cp</span> = Copy a file</li><li><span class="highlight">mv</span> = Move or rename a file</li></ul><div style="margin-top:30px;font-size:20px;opacity:0.5;">Next week: sudo & permissions — the master key!</div></div>
+<!-- THANK YOU SLIDE -->
+<div class="slide" id="thanks">
+  <h1>🙏 Thank You</h1>
+  <p style="font-size:24px;max-width:700px;line-height:1.8;">This course is free because of the open source community.</p>
+  <ul style="max-width:600px;font-size:22px;line-height:1.8;">
+    <li>The <span class="highlight">MX Linux team</span> — for building an amazing beginner-friendly distro</li>
+    <li>The <span class="highlight">Ventoy developers</span> — for making USB creation effortless</li>
+    <li><span class="highlight">Linus Torvalds</span> and thousands of Linux kernel contributors</li>
+    <li>The <span class="highlight">Debian project</span> — which MX Linux is built upon</li>
+    <li>The <span class="highlight">XFCE team</span> — for keeping the desktop lightweight</li>
+    <li>Every developer who writes free code and documentation</li>
+  </ul>
+  <p style="margin-top:30px;font-size:20px;">Open source means we are free to learn, share, and teach. 🌱</p>
+</div>
+
+<div class="nav"><button onclick="goSlide(-1)">◀ Prev</button><span id="pageNum">1</span><button onclick="goSlide(1)">Next ▶</button></div>
+<script src="presentation.js"></script></body></html>

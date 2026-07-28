@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ep 5 — The Terminal is Not Scary</title><link rel="stylesheet" href="presentation.css"><style>.split-demo { display:flex; gap:20px; width:100%; max-width:900px; } .split-demo > div { flex:1; padding:20px; border-radius:12px; } .term { background:#0a0a1a; font-family:monospace; font-size:20px; border:1px solid #333; } .gui { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); } .prompt::before { content:"$ "; color:#00d2ff; }</style></head><body>
+<div class="counter" id="counter">1 / 10</div>
+<div class="slide active" id="s1"><h1>EPISODE 5</h1><h2>The Terminal is Not Scary</h2><h3 class="highlight">pwd • ls • cd</h3><div class="overlay" style="font-size:22px;">The terminal is just a text-based file manager — nothing to fear!</div></div>
+<div class="slide" id="s2"><h1>Terminal = Text File Manager</h1><div class="grid"><div class="card center"><h3>🖱️ File Manager</h3><p>Click folders to open them<br>See files as icons</p></div><div class="card center"><h3>⌨️ Terminal</h3><p>Type folder names to go there<br>See files as text list</p></div></div><p style="margin-top:30px;font-size:22px;">Same result. Different method.</p></div>
+<div class="slide" id="s3"><h1>Open the Terminal</h1><div class="overlay" style="font-size:40px;">Ctrl + Alt + T</div><p style="margin-top:20px;font-size:22px;">Or click the black icon in the bottom panel</p><div class="split-demo" style="margin-top:30px;"><div class="gui"><h3 style="color:#00d2ff;">📁 File Manager</h3><p style="font-size:16px;opacity:0.6;">Home<br>├─ Desktop<br>├─ Documents<br>├─ Downloads<br>├─ Music<br>└─ Pictures</p></div><div class="term"><p style="font-size:16px;">student@mx:~$</p><p style="font-size:16px;opacity:0.4;">Waiting for command...</p></div></div></div>
+<div class="slide" id="s4"><h1>pwd — Where Am I?</h1><div class="overlay">pwd = <span style="color:#fff;">Print Working Directory</span></div><p style="font-size:24px;margin:20px 0;">"Where am I standing right now?"</p><div class="code">student@mx:~$ pwd<br>/home/student</div><p style="margin-top:15px;font-size:20px;">Your terminal shows the exact folder path — just like the file manager bar</p></div>
+<div class="slide" id="s5"><h1>ls — What's Here?</h1><div class="overlay">ls = <span style="color:#fff;">List Files</span></div><p style="font-size:24px;margin:20px 0;">"What files are in this folder?"</p><div class="code" style="font-size:20px;">student@mx:~$ ls<br>Desktop  Documents  Downloads  Music  Pictures</div><p style="margin-top:15px;font-size:20px;">Look at your file manager — same folders!</p></div>
+<div class="slide" id="s6"><h1>ls -a — Hidden Files</h1><div class="overlay" style="font-size:36px;">ls -a = Show <span style="color:#fff;">ALL</span> Files</div><p style="font-size:22px;margin:20px 0;">Files starting with <span class="highlight">.</span> are hidden<br>Terminal shows you EVERYTHING</p><div class="code" style="font-size:16px;">student@mx:~$ ls -a<br>.  ..  .bashrc  .profile  Desktop  Documents  Downloads  Music  Pictures</div></div>
+<div class="slide" id="s7"><h1>cd — Go To...</h1><div class="overlay">cd = <span style="color:#fff;">Change Directory</span></div><p style="font-size:24px;margin:20px 0;">"Go to a different folder"</p><div class="code">student@mx:~$ cd Desktop<br>student@mx:~/Desktop$</div><p style="margin-top:15px;font-size:20px;">Watch your file manager jump to Desktop!</p></div>
+<div class="slide" id="s8"><h1>cd .. — Go Back</h1><div class="overlay">cd .. = Go <span style="color:#fff;">UP</span> one folder<br><span style="font-size:18px;">(. . = parent directory)</span></div><div class="code" style="margin-top:20px;">student@mx:~/Desktop$ cd ..<br>student@mx:~$</div><p style="margin-top:15px;font-size:20px;">Back to Home. See the prompt changed?</p></div>
+<div class="slide" id="s9"><h1>Practice Session</h1><p style="font-size:24px;margin-bottom:20px;">Try this sequence:</p><div class="code" style="font-size:22px;">pwd<br>ls<br>cd Documents<br>pwd<br>ls<br>cd ..<br>cd Downloads<br>pwd</div><p style="margin-top:20px;font-size:20px;">You're navigating Linux faster than most Windows users already!</p></div>
+<div class="slide" id="s10"><h1>✅ Episode 5 Summary</h1><ul style="max-width:600px;"><li><span class="highlight">pwd</span> = Where am I?</li><li><span class="highlight">ls</span> = What's here?</li><li><span class="highlight">ls -a</span> = Show everything (even hidden)</li><li><span class="highlight">cd</span> = Go to a folder</li><li><span class="highlight">cd ..</span> = Go back one level</li></ul><div style="margin-top:30px;font-size:20px;opacity:0.5;">Next week: Create files & folders!</div></div>
+<!-- THANK YOU SLIDE -->
+<div class="slide" id="thanks">
+  <h1>🙏 Thank You</h1>
+  <p style="font-size:24px;max-width:700px;line-height:1.8;">This course is free because of the open source community.</p>
+  <ul style="max-width:600px;font-size:22px;line-height:1.8;">
+    <li>The <span class="highlight">MX Linux team</span> — for building an amazing beginner-friendly distro</li>
+    <li>The <span class="highlight">Ventoy developers</span> — for making USB creation effortless</li>
+    <li><span class="highlight">Linus Torvalds</span> and thousands of Linux kernel contributors</li>
+    <li>The <span class="highlight">Debian project</span> — which MX Linux is built upon</li>
+    <li>The <span class="highlight">XFCE team</span> — for keeping the desktop lightweight</li>
+    <li>Every developer who writes free code and documentation</li>
+  </ul>
+  <p style="margin-top:30px;font-size:20px;">Open source means we are free to learn, share, and teach. 🌱</p>
+</div>
+
+<div class="nav"><button onclick="goSlide(-1)">◀ Prev</button><span id="pageNum">1</span><button onclick="goSlide(1)">Next ▶</button></div>
+<script src="presentation.js"></script></body></html>

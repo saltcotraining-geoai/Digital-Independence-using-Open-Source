@@ -1,93 +1,85 @@
-# Digital Independence using Open Source
+# Digital Independence using Open Source — Series Roadmap
 
-## Complete Series Roadmap
+A free 10-episode course from absolute beginner to confident Linux user. All on 2GB-4GB RAM laptops.
 
-A free, open-source curriculum taking you from absolute beginner to job-ready geospatial professional. Each episode is exactly 20 minutes: 1.5 min intro, 17 min hands-on, 1.5 min outro.
+**Instructor:** Saltibin
+**Schedule:** One episode every 2 weeks
+**Duration:** 20-25 minutes per episode
+**Target:** Sudanese communities and anyone with limited resources
 
 ---
 
-## Credits & Dedication
+## Phase 1: GUI Only (Episodes 1-4)
+
+Build confidence by seeing what Linux can do. Everything is point-and-click. No terminal.
+
+| Ep | Title | Key Learning | Deliverable |
+|---|---|---|---|
+| 1 | Your Laptop is Not Dead Yet | See professional apps running on 4GB RAM (LibreOffice, GIMP, Blender, AI). Understand: Linux is not hard, it's just different. | Watch a 4GB laptop run multiple pro apps without lag. |
+| 2 | Try Before You Install | Create a Ventoy live USB. Boot MX Linux safely. Zero risk to Windows files. | Boot into a live Linux session on your own laptop. |
+| 3 | Make It Yours | Permanent install using the graphical MX Installer. "Use Entire Disk" — no manual partitioning. | MX Linux installed and running on your hard drive. |
+| 4 | Make Yourself at Home | Desktop tour. WiFi setup. Software Manager. Install LibreOffice, VLC, Firefox with clicks. | Customized desktop with apps installed. |
+
+---
+
+## Phase 2: CLI Basics (Episodes 5-8)
+
+Learn the terminal — one command at a time. Split-screen demos show every command in action.
+
+| Ep | Title | Commands | Deliverable |
+|---|---|---|---|
+| 5 | The Terminal is Not Scary | pwd, ls, cd, ls -a | Navigate to any folder using only the terminal. |
+| 6 | Create Like a Pro | mkdir, touch, nano, rm, rm -i | Create a folder structure for all school subjects. |
+| 7 | Find Anything in Seconds | locate, grep, cp, mv | Find any file instantly. Backup and organize. |
+| 8 | The Master Key | sudo, ls -l, chmod +x | Understand permissions. Make a file executable. |
+
+---
+
+## Phase 3: Automation & Career (Episodes 9-10)
+
+Combine everything into tools. Build a portfolio. Start your career.
+
+| Ep | Title | Skills | Deliverable |
+|---|---|---|---|
+| 9 | One Command to Rule Them All | #!/bin/bash, echo, apt, chmod +x | Custom maintenance script. One-click system cleanup. |
+| 10 | You Are Now a Linux User | GitHub portfolio, career paths, next steps | Public GitHub repo with your scripts. |
+
+---
+
+## Distro
+
+This course uses **MX Linux XFCE** — lightweight, beginner-friendly, runs on 2GB-4GB RAM.
+
+Mentioned alternatives:
+- **antiX** — for 32-bit / 2GB machines, ~300MB RAM idle
+- **Linux Mint XFCE** — Windows-like interface
+
+---
+
+## Course Philosophy
+
+1. **See before you command** — Episodes 1-4 have zero terminal. Trust first, then learn.
+2. **20-25 minute limit** — Respects attention span and mobile viewing.
+3. **Old hardware is the target** — 2-4GB RAM machines. If it runs on a 10-year-old laptop, it's in the course.
+4. **Sudanese context** — Simple English. Examples relevant to limited internet and older hardware.
+5. **Free forever** — No paywalls. No licenses. Open source all the way.
+
+---
+
+## 🙏 Thanks & Credits
 
 This curriculum is free, public, and open-source — just like the tools it teaches.
 
-**We dedicate this work to the global open-source community.** Every line of code in Linux, every package in Debian, every plugin in QGIS, every font rendered on your screen — it exists because thousands of developers around the world gave their time for free. They wrote documentation, fixed bugs, answered forum questions, and built the infrastructure that powers the modern internet. This course stands on their shoulders.
+**We dedicate this work to the global open-source community.** Every line of code in Linux, every package in Debian, every tool we use — it exists because thousands of developers gave their time for free.
 
 **Special thanks to:**
-- The Linux Mint and XFCE teams for creating a desktop environment that revives old hardware and respects user freedom
-- The Debian project and Ubuntu community for reliable, free package distribution
-- The GNU project and Richard Stallman whose vision of free software started this movement
-- Every maintainer who keeps open-source projects alive, often with no pay and little recognition
+- MX Linux team
+- Ventoy developers
+- Linux kernel contributors (Linus Torvalds and thousands)
+- Debian project
+- XFCE team
+- Every maintainer who keeps open-source projects alive
 
 **Our mission:** Open source is our vehicle to share knowledge, build skills, and teach those with limited resources to participate and prosper. If you have an old laptop, unstable internet, or no money for software licenses — you are not left behind. You are exactly who this community serves.
 
-This curriculum is licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA). You are free to copy, modify, translate, and teach it anywhere in the world — including off-grid, refugee, and low-resource learning environments — provided you keep this credit block intact.
-
----
-
-## Prerequisite Rule
-
-**Level 1 must be completed before any other level.** No exceptions. This ensures every student has the Linux foundation needed for Python and QGIS.
-
----
-
-## Level 1: Digital Independence (Beginner)
-
-| # | Episode | What You'll Learn | Hands-On Deliverable |
-|---|---|---|---|
-| 1 | The Digital Rebirth | Why leave Windows/Mac? FOSS philosophy. Terminal basics. | Boot Linux live USB. Run `free -h` and `df -h`. |
-| 2 | The Digital Scout | Navigate without a mouse. `pwd`, `ls`, `cd`, Tab key. | Find the treasure in the Maze game. |
-| 3 | The Digital Architect | Create files and folders. `mkdir`, `touch`, `nano`. | Write your bio in the terminal. |
-| 4 | The Digital Commander | Copy, move, and delete files. `cp`, `mv`, `rm`. | Clean the sandbox directory. |
-| 5 | The Software Alchemist | Install apps offline. `sudo`, `dpkg`, `.deb` packages. | Install neofetch from a local file. |
-| 6 | The System Savior | Freeze a system and rescue it. `htop`, `pkill`, `kill -9`. | Pass the final grading script. |
-| Bonus | Automation Bridge | Your first shell script. `chmod +x`, shebang, `echo`. | Write `system_guard.sh` |
-
-## Level 2: Python Automation (Intermediate)
-
-Coming next. Prerequisite: Level 1 complete.
-
-## Level 3: QGIS & Spatial Analysis (Advanced)
-
-Coming next. Prerequisite: Levels 1 and 2 complete.
-
----
-
-## Career Pipeline
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│              INDUSTRIAL CAREER ROLES                          │
-│   GIS Analyst · Data Scientist · Surveyor · Project Manager  │
-└─────────────────────────────────────────────────────────────┘
-                            ▲
-                ┌───────────┴───────────┐
-                │  LEVEL 3: WEB MAPS    │
-                │  Folium, OpenLayers   │
-                └───────────────────────┘
-                            ▲
-                ┌───────────┴───────────┐
-                │  LEVEL 2: PYTHON      │
-                │  GeoPandas, Automation│
-                └───────────────────────┘
-                            ▲
-                ┌───────────┴───────────┐
-                │  LEVEL 1: DESKTOP     │
-                │  Linux CLI, QGIS      │
-                └───────────────────────┘
-                            ▲
-                ┌───────────┴───────────┐
-                │  PREREQUISITE DOORWAY │
-                │  Digital Independence │
-                │  (You are here)       │
-                └───────────────────────┘
-```
-
-Every command you learn in Level 1 is used daily by professional engineers managing world networks. You are not learning a "simplified" version. You are learning the real toolset.
-
----
-
-## Need Help?
-
-- Open an issue at [GitHub repository URL]
-- Join the community discussion
-- Each episode has a challenge at the end. Complete it before moving on.
+Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA).

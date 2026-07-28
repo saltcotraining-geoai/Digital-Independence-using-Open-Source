@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ep 3 — Make It Yours</title>
+<link rel="stylesheet" href="presentation.css">
+<style>
+  #progress-bar { width:80%; max-width:600px; height:12px; background:rgba(255,255,255,0.1); border-radius:6px; margin:20px 0; overflow:hidden; }
+  #progress-fill { height:100%; background:linear-gradient(90deg,#00d2ff,#3a7bd5); border-radius:6px; animation:fillBar 5s ease-in-out infinite alternate; }
+  @keyframes fillBar { 0% { width:0%; } 100% { width:100%; } }
+</style>
+</head>
+<body>
+<div class="counter" id="counter">1 / 10</div>
+
+<div class="slide active" id="s1">
+  <h1>EPISODE 3</h1>
+  <h2>Make It Yours</h2>
+  <h3 class="highlight">Moving Linux to Your Hard Drive</h3>
+  <div class="overlay warn-box">⚠️ THIS ERASES THE DRIVE — Back up your files first!</div>
+</div>
+
+<div class="slide" id="s2">
+  <h1>What You Need</h1>
+  <ul style="max-width:600px;">
+    <li>Your Ventoy USB from Episode 2</li>
+    <li>A computer to install on</li>
+    <li>All important files backed up</li>
+    <li>10-15 minutes of install time</li>
+  </ul>
+  <div class="overlay warn-box" style="margin-top:30px;">⚠️ If you share this computer with family — stop. We'll cover dual boot later.</div>
+</div>
+
+<div class="slide" id="s3">
+  <h1>Boot from USB</h1>
+  <p style="font-size:24px;margin-bottom:20px;">Same process as Episode 2:</p>
+  <ul style="max-width:500px;">
+    <li>Plug in Ventoy USB</li>
+    <li>Restart → Spam boot key (F12/F9/ESC)</li>
+    <li>Select USB → Pick MX Linux</li>
+    <li>Wait for desktop to load</li>
+  </ul>
+  <div style="margin-top:20px;font-size:20px;opacity:0.5;">This time, we WILL click "Install"</div>
+</div>
+
+<div class="slide" id="s4">
+  <h1>The Installer</h1>
+  <div class="grid">
+    <div class="card center">
+      <h3>1. Welcome</h3>
+      <p>Click Next</p>
+    </div>
+    <div class="card center">
+      <h3>2. Language</h3>
+      <p>Pick yours</p>
+    </div>
+    <div class="card center">
+      <h3>3. Time Zone</h3>
+      <p>Click your location on the map</p>
+    </div>
+    <div class="card center">
+      <h3>4. Keyboard</h3>
+      <p>US = standard</p>
+    </div>
+  </div>
+</div>
+
+<div class="slide" id="s5">
+  <h1>The Scary Screen</h1>
+  <h2 class="highlight" style="font-size:36px;">Disk Partitioning</h2>
+  <div class="overlay" style="font-size:40px;">✅ "Use Entire Disk"</div>
+  <div style="max-width:700px;margin-top:20px;font-size:22px;line-height:1.8;">
+    <p>▸ This is the <span class="warn">EASY button</span></p>
+    <p>▸ The installer handles everything automatically</p>
+    <p>▸ No partitions, no swap, no manual setup needed</p>
+  </div>
+</div>
+
+<div class="slide" id="s6">
+  <h1>Create Your Account</h1>
+  <div class="grid" style="max-width:700px;">
+    <div class="card center">
+      <h3>Your Name</h3>
+      <p>Your full name</p>
+    </div>
+    <div class="card center">
+      <h3>Username</h3>
+      <p>One word, lowercase (e.g. "student")</p>
+    </div>
+    <div class="card center">
+      <h3>Password</h3>
+      <p>Pick something you'll remember!</p>
+    </div>
+    <div class="card center">
+      <h3>Computer Name</h3>
+      <p>Default is fine</p>
+    </div>
+  </div>
+  <div class="overlay warn-box" style="margin-top:20px;">🔑 REMEMBER THIS PASSWORD — You need it every day!</div>
+</div>
+
+<div class="slide" id="s7">
+  <h1>Installation Progress</h1>
+  <div id="progress-bar"><div id="progress-fill"></div></div>
+  <p style="font-size:22px;margin-top:15px;">5-10 minutes</p>
+  <p style="font-size:18px;opacity:0.6;margin-top:10px;">Go grab water. Let it finish.</p>
+  <div class="overlay" style="margin-top:20px;">Do NOT power off or remove USB during install</div>
+</div>
+
+<div class="slide" id="s8">
+  <h1>First Boot</h1>
+  <ul style="max-width:600px;">
+    <li>Installer says: "Installation complete"</li>
+    <li>Click <span class="highlight">Finish</span></li>
+    <li>Remove USB when prompted</li>
+    <li>Press Enter → System restarts</li>
+  </ul>
+  <div class="overlay" style="margin-top:30px;">✅ MX Linux boots from your hard drive!</div>
+</div>
+
+<div class="slide" id="s9">
+  <h1>Welcome Screen</h1>
+  <div style="font-size:28px;">
+    <p>Enter your password</p>
+    <p style="margin-top:20px;">Look at your fresh, permanent desktop</p>
+    <p class="highlight" style="margin-top:20px;font-size:36px;">You now have a real Linux system!</p>
+  </div>
+</div>
+
+<div class="slide" id="s10">
+  <h1>✅ Episode 3 Summary</h1>
+  <ul style="max-width:600px;">
+    <li>Booted from USB into live environment</li>
+    <li>Ran the MX Linux installer</li>
+    <li>Selected "Use Entire Disk" — no manual partitioning</li>
+    <li>Created user account</li>
+    <li>First boot into permanent Linux system</li>
+  </ul>
+  <div style="margin-top:30px;font-size:20px;opacity:0.5;">Next week: Desktop tour & installing apps — all with the mouse, no terminal!</div>
+</div>
+
+<!-- THANK YOU SLIDE -->
+<div class="slide" id="thanks">
+  <h1>🙏 Thank You</h1>
+  <p style="font-size:24px;max-width:700px;line-height:1.8;">This course is free because of the open source community.</p>
+  <ul style="max-width:600px;font-size:22px;line-height:1.8;">
+    <li>The <span class="highlight">MX Linux team</span> — for building an amazing beginner-friendly distro</li>
+    <li>The <span class="highlight">Ventoy developers</span> — for making USB creation effortless</li>
+    <li><span class="highlight">Linus Torvalds</span> and thousands of Linux kernel contributors</li>
+    <li>The <span class="highlight">Debian project</span> — which MX Linux is built upon</li>
+    <li>The <span class="highlight">XFCE team</span> — for keeping the desktop lightweight</li>
+    <li>Every developer who writes free code and documentation</li>
+  </ul>
+  <p style="margin-top:30px;font-size:20px;">Open source means we are free to learn, share, and teach. 🌱</p>
+</div>
+
+<div class="nav">
+  <button onclick="goSlide(-1)">◀ Prev</button>
+  <span id="pageNum">1</span>
+  <button onclick="goSlide(1)">Next ▶</button>
+</div>
+
+<script src="presentation.js"></script>
+</body>
+</html>
