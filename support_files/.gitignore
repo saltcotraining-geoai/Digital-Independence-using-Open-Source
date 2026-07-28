@@ -1,0 +1,4 @@
+*.odt
+.DS_Store
+Thumbs.db
+recordings/
