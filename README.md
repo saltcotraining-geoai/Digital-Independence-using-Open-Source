@@ -54,11 +54,7 @@ A free 10-episode course taking absolute beginners from zero to Linux user — a
 │   ├── presentation.css              # Shared styles
 │   └── presentation.js               # Slide navigation
 ├── recordings/                       # Episode recordings & thumbnails
-├── linux_course_scripts_rev02.md     # Full narration scripts (all episodes)
-├── yt_descriptions_tags.md           # YouTube descriptions + SEO tags
-├── thumbnail_canva_recipe.md         # Thumbnail design guide
-├── old_pc_chain_image.html           # Course graphic
-└── old_pc_chain_image.svg            # Course graphic
+
 ```
 
 ---
