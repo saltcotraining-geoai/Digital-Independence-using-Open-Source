@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Training Route Map — Handout</title><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:Arial, Helvetica, sans-serif; color:#1a1a2e; background:#fff; }
+  .page { width:210mm; min-height:297mm; padding:14mm 16mm; margin:0 auto; page-break-after:always; position:relative; }
+  .page:last-child { page-break-after:auto; }
+
+  header { display:flex; justify-content:space-between; align-items:center; border-bottom:4px solid #00d2ff; padding-bottom:8px; margin-bottom:14px; }
+  header .brand h1 { font-size:21pt; font-weight:900; letter-spacing:.5px; }
+  header .brand p { font-size:9.5pt; color:#00a3c4; font-weight:700; margin-top:2px; }
+  header .logo { font-size:26pt; }
+
+  h2 { font-size:13pt; font-weight:900; color:#00a3c4; text-transform:uppercase; letter-spacing:1px; margin:0 0 8px; }
+  h2 .n { display:inline-block; background:#1a1a2e; color:#fff; border-radius:50%; width:20pt; height:20pt; text-align:center; line-height:20pt; font-size:11pt; margin-right:6px; }
+
+  .route { width:100%; margin:4px 0 14px; border-spacing:0; }
+  .route td, .route th { text-align:center; vertical-align:middle; padding:6px 6px; font-size:9pt; border-radius:8px; }
+  .route .label { width:180px; background:#1a1a2e; color:#fff; border-radius:8px; padding:8px; font-weight:700; }
+  .gate { background:#1a1a2e; color:#fff; }
+  .tier { background:#00a3c4; color:#fff; }
+  .track-a { background:#f8c630; color:#1a1a2e; }
+  .track-b { background:#48c78e; color:#1a1a2e; }
+  .arrow { font-size:16pt; color:#00a3c4; }
+  .exit { font-size:8pt; color:#666; font-weight:700; }
+
+  .qa { margin-top:2px; }
+  .qa .row { display:flex; gap:6px; margin-bottom:6px; }
+  .qa .box { flex:1; border:1.5px solid #1a1a2e; border-radius:8px; padding:8px 10px; text-align:left; }
+  .qa .box h3 { font-size:9.5pt; font-weight:900; color:#00a3c4; text-transform:uppercase; margin-bottom:3px; }
+  .qa .box ol { margin-left:14px; font-size:8.5pt; line-height:1.45; }
+  .qa .box p, .qa .box li { font-size:8.5pt; line-height:1.45; }
+
+  .track-b-detail { font-size:8.5pt; line-height:1.5; }
+  .track-b-detail b { color:#1a1a2e; }
+  .step { display:flex; align-items:center; margin-bottom:4px; }
+  .step .num { background:#1a1a2e; color:#fff; border-radius:50%; width:16px; height:16px; text-align:center; line-height:16px; font-size:8pt; font-weight:700; margin-right:8px; flex-shrink:0; }
+  .step span { font-size:8.5pt; }
+
+  .policy { background:#f2f8fc; border-left:5px solid #00a3c4; padding:9px 12px; font-size:9pt; font-style:italic; line-height:1.5; margin:8pt 0; border-radius:0 8px 8px 0; }
+
+  .nonneg { display:flex; flex-wrap:wrap; gap:5px; margin-top:6px; }
+  .nonneg .tag { background:#1a1a2e; color:#fff; border-radius:20px; padding:4px 12px; font-size:8.5pt; font-weight:700; }
+
+  footer { position:absolute; bottom:12mm; left:16mm; right:16mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid #ddd; padding-top:8px; font-size:8.5pt; color:#444; }
+  footer b { color:#00a3c4; }
+
+  @media print {
+    body { background:#fff; }
+    .page { margin:0; box-shadow:none; }
+  }
+  @media screen {
+    .page { box-shadow:0 0 12px rgba(0,0,0,.15); margin:16px auto; }
+    .print-hint { text-align:center; padding:10px; font-family:Arial; color:#555; }
+  }
+</style></head><body>
+<div class="print-hint">Save as PDF (Ctrl/Cmd+P → Destination: Save as PDF) to hand out in A4. The layout is exactly 2 pages.</div>
+
+<div class="page">
+  <header>
+    <div class="brand"><h1>DIGITAL INDEPENDENCE</h1><p>Training Route Map · Open Source Learning Path</p></div>
+    <div class="logo">🐧</div>
+  </header>
+
+  <h2><span class="n">1</span> The Route</h2>
+  <table class="route"><tr>
+    <td class="label gate">GATE 0<br>ENROLMENT<br><span style="font-weight:400;font-size:8pt;">Typing Test — 25+ WPM @ 95%</span></td>
+    <td class="arrow">▼</td>
+    <td class="label tier">TIER 1<br>DIGITAL INDEPENDENCE<br><span style="font-weight:400;font-size:8pt;">Linux · Terminal · First Script (10 eps)</span></td>
+    <td class="arrow">▼</td>
+    <td class="label track-a">TRACK A<br>OFFICE<br><span style="font-weight:400;font-size:8pt;">LibreOffice</span></td>
+  </tr><tr>
+    <td class="exit" colspan="5">Finish TIER 1 with your GitHub portfolio published → then choose your branch</td>
+  </tr><tr>
+    <td></td><td></td><td></td>
+    <td class="arrow">▼</td>
+    <td class="label track-b">TRACK B<br>GEOSPATIAL<br><span style="font-weight:400;font-size:8pt;">GIS · QGIS · Python · PyQGIS · AI</span></td>
+  </tr></table>
+
+  <h2><span class="n">2</span> Requirements — Gate by Gate</h2>
+  <div class="qa">
+    <div class="row">
+      <div class="box"><h3>GATE 0 — Every learner</h3>
+        <ul>Must master <b>typing before any class</b>.</ul>
+        <ul>Bar: <b>25+ WPM at 95% accuracy</b>, 3 runs in a row.</ul>
+        <ul>Tools: Klavaro / Tux Typing (Linux) or browser trainer.</ul>
+        <p><b>No typing master → no enrolment. No exceptions.</b></p>
+      </div>
+      <div class="box"><h3>TIER 1 — The doorway</h3>
+        <ul>Succeed in the 10-episode Digital Independence course.</ul>
+        <ul>Exit: quiz + script deliverable + <b>public GitHub repo</b>.</ul>
+        <ul>Becomes your “Digital Independence certificate.”</ul>
+        <p><b>No Tier 1 → no Track A and no Track B.</b> This floor stays strict.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="policy"><b>Policy (use as-is):</b> “No learner may register for any course without first passing the Typing Gate (25 WPM @ 95%). All learners must hold the Digital Independence certificate before enrolling in either the Office or Geospatial tracks. QGIS Advanced, Python, and AI modules require completion of the preceding required module.”</div>
+
+  <footer>
+    <span>🔥 <b>Digital Independence using Open Source</b> — free for everyone, on 2-4 GB RAM laptops</span>
+    <span>youtube @saltcotraining-geoai · github saltcotraining-geoai</span>
+  </footer>
+</div>
+
+<div class="page">
+  <header>
+    <div class="brand"><h1>DIGITAL INDEPENDENCE</h1><p>Training Route Map · Page 2 — Choosing Your Branch</p></div>
+    <div class="logo">🗺️</div>
+  </header>
+
+  <h2><span class="n">A</span> Track A — Office Productivity (LibreOffice)</h2>
+  <div class="track-b-detail">
+    <div class="step"><span class="num">1</span><span><b>Calc (10 sessions)</b> — spreadsheets, data, formulas</span></div>
+    <div class="step"><span class="num">2</span><span><b>Writer (6 sessions)</b> — documents & reports</span></div>
+    <div class="step"><span class="num">3</span><span><b>Impress (4 sessions)</b> — presentations</span></div>
+    <p style="margin-top:5px;">Order: data first — every report starts as a table. Careers: administration, data entry, NGO reporting, teaching materials.</p>
+    <p><b>Later move?</b> Track A graduates may join Track B with the Tier 1 certificate. Calc is a bonus, not a requirement, for GIS.</p>
+  </div>
+
+  <h2 style="margin-top:14px;"><span class="n">B</span> Track B — Geospatial Career (GIS & Automation)</h2>
+  <div class="track-b-detail">
+    <div class="step"><span class="num">1</span><span><b>GIS & QGIS Beginners (10 weeks)</b> — needs Tier 1. Coordinate systems, vector/raster, map layouts, data capture.</span></div>
+    <div class="step"><span class="num">2</span><span><b>QGIS Advanced (4 weeks)</b> — needs the full beginner course. No mid-way entry.</span></div>
+    <div class="step"><span class="num">3</span><span><b>Python for GIS</b> — needs QGIS Advanced. Calc thinking recommended for attribute tables.</span></div>
+    <div class="step"><span class="num">4</span><span><b>PyQGIS automation</b> — needs Python for GIS. Batch geospatial processing.</span></div>
+    <div class="step"><span class="num">5</span><span><b>AI for geospatial analytics & dashboards</b> — last stage; builds on PyQGIS output.</span></div>
+    <div class="step"><span class="num">6</span><span><b>Web mapping (Folium / Leaflet)</b> — capstone: share interactive maps with decision makers.</span></div>
+  </div>
+
+  <div class="policy" style="margin-top:10px;"><b>Keep the branches open:</b> both tracks exit into the same pool. A learner may apply Office skills in community/NGO work, or continue up the GIS/Python ladder. Certificates let learners choose later — no dead ends.</div>
+
+  <h2><span class="n">5</span> The Five Non-Negotiables ✅</h2>
+  <div class="nonneg">
+    <span class="tag">1. Typing gate before enrolment</span>
+    <span class="tag">2. Digital Independence cert before any track</span>
+    <span class="tag">3. Free forever, open source</span>
+    <span class="tag">4. Old hardware (2-4 GB RAM) is the target</span>
+    <span class="tag">5. Sudanese context, simple English</span>
+  </div>
+  <p style="font-size:9pt;font-style:italic;margin-top:8px;">“These five are the walls of the house. Partners can help furnish it, decorate it, or add a room — but the walls stay.”</p>
+
+  <footer>
+    <span>🐧 Same commands the world’s engineers run daily — taught free, on your own laptop.</span>
+    <span>Digital Independence using Open Source</span>
+  </footer>
+</div>
+
+</body></html>
