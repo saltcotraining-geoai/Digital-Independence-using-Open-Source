@@ -1,10 +1,10 @@
 # Digital Independence using Open Source — Series Roadmap
 
-A free 10-episode course from absolute beginner to confident Linux user. All on 2GB-4GB RAM laptops.
+A free course from absolute beginner to confident Linux user. All on 2GB-4GB RAM laptops. Episode 3 is split into 3 parts (try → install → distro-hop) so every video stays 20-25 minutes.
 
 **Instructor:** Saltibin
 **Schedule:** One episode every 2 weeks
-**Duration:** 20-25 minutes per episode
+**Duration:** 20-25 minutes per video
 **Target:** Sudanese communities and anyone with limited resources
 
 ---
@@ -15,9 +15,11 @@ Build confidence by seeing what Linux can do. Everything is point-and-click. No 
 
 | Ep | Title | Key Learning | Deliverable |
 |---|---|---|---|
-| 1 | Your Laptop is Not Dead Yet | See professional apps running on 4GB RAM (LibreOffice, GIMP, Blender, AI). Understand: Linux is not hard, it's just different. | Watch a 4GB laptop run multiple pro apps without lag. |
-| 2 | Try Before You Install | Create a Ventoy live USB. Boot MX Linux safely. Zero risk to Windows files. | Boot into a live Linux session on your own laptop. |
-| 3 | Make It Yours | Permanent install using the graphical MX Installer. "Use Entire Disk" — no manual partitioning. | MX Linux installed and running on your hard drive. |
+| 1 | Your Old Laptop Is Not Dead | See professional apps running on 4GB RAM (LibreOffice, GIMP, Blender, AI). Understand: Linux is not hard, it's just different. | Watch a 4GB laptop run multiple pro apps without lag. |
+| 2 | *reserved* | *Ep 2 comes later.* | — |
+| 3 · Part 1 | [Ventoy & MX Linux Live USB](https://www.youtube.com/watch?v=Xz-17ymyMpi) | Create a Ventoy live USB. Boot MX Linux safely. Zero risk to Windows files. | Boot into a live Linux session on your own laptop. |
+| 3 · Part 2 | Install MX Linux (Replace Windows) | Permanent install using the graphical MX Installer. "Use Entire Disk" — no manual partitioning. Replaces Windows completely. | MX Linux installed and running on your hard drive. |
+| 3 · Part 3 | Try Linux Mint (Distro Hopping) | Swap MX Linux for Linux Mint on the same USB. Hopping between distros is easy and safe. | Linux Mint installed, distro-hopping fear gone. |
 | 4 | Make Yourself at Home | Desktop tour. WiFi setup. Software Manager. Install LibreOffice, VLC, Firefox with clicks. | Customized desktop with apps installed. |
 
 ---

@@ -52,9 +52,11 @@ antiX (for 32-bit / 2GB machines): https://antixlinux.com
 Linux Mint XFCE (Windows-like alternative): https://linuxmint.com
 
 📺 FULL COURSE PLAYLIST:
-Episode 1 — What is Linux & Why Switch (this video)
-Episode 2 — Making a Live USB (Zero Risk)
-Episode 3 — Permanent Install (GUI Only)
+Episode 1 — Your Old Laptop Is Not Dead (this video)
+Episode 2 — (reserved, coming later)
+Episode 3 · Part 1 — Ventoy & MX Linux Live USB
+Episode 3 · Part 2 — Install MX Linux (Replace Windows)
+Episode 3 · Part 3 — Try Linux Mint (Distro Hopping)
 Episode 4 — Desktop Tour, Apps & Customization
 Episode 5 — First Time in Terminal (pwd, ls, cd)
 Episode 6 — Creating & Deleting (mkdir, touch, nano, rm)
@@ -72,10 +74,12 @@ linux for beginners, what is linux, why switch to linux, linux vs windows, linux
 
 ---
 
-## EPISODE 2 — Making a Live USB (Zero Risk)
+## EPISODE 3 · PART 1 — Ventoy & MX Linux Live USB
+*Published on the channel as "Ventoy & MX Linux Live USB | Digital Independence Ep 3 - Part 1" — Watch: https://www.youtube.com/watch?v=Xz-17ymyMpi*
+> NOTE: This is the DRAFT description. The description actually uploaded/published for this video is the one in `recordings/ep3_part1_recording/youtube_description.txt` (final, 26:06).
 
 **Title:**
-Try Linux Without Touching Windows — Live USB Guide (Episode 2)
+Try Linux Without Touching Windows — Live USB Guide (Episode 3 · Part 1)
 
 **Description:**
 Want to try Linux but scared of breaking your Windows installation? This is the safest way to test Linux — zero risk, zero changes to your hard drive.
@@ -89,7 +93,7 @@ In this episode you'll learn:
 
 No installation required. No files deleted. No risk.
 
-This is the first hands-on step of our 10-week series. By the end of this video, you'll be running Linux from a USB stick on your own laptop.
+This is the first hands-on step of the course — Episode 3, Part 1 of 3. By the end of this video, you'll be running Linux from a USB stick on your own laptop.
 
 📥 DOWNLOADS:
 MX Linux XFCE: https://mxlinux.org
@@ -110,17 +114,17 @@ Ventoy: https://ventoy.net
 #linux #liveusb #ventoy #mxlinux #trylinux #nocode #beginnerguide
 
 Tags:
-try linux without installing, linux live usb, how to make linux live usb, ventoy tutorial, ventoy vs rufus, mx linux live usb, boot from usb linux, test linux without deleting windows, linux for old laptop, 2gb ram linux, 4gb ram linux, linux live environment, how to boot from usb, boot menu keys, f12 boot menu, linux tutorial for beginners, linux installation guide, dual boot linux, linux from usb, safe linux testing, shift to linux episode 2, learn linux free
+try linux without installing, linux live usb, how to make linux live usb, ventoy tutorial, ventoy vs rufus, mx linux live usb, boot from usb linux, test linux without deleting windows, linux for old laptop, 2gb ram linux, 4gb ram linux, linux live environment, how to boot from usb, boot menu keys, f12 boot menu, linux tutorial for beginners, linux installation guide, dual boot linux, linux from usb, safe linux testing, shift to linux episode 3 part 1, learn linux free
 
 ---
 
-## EPISODE 3 — Permanent Install (GUI Only)
+## EPISODE 3 · PART 2 — Install MX Linux (Replace Windows)
 
 **Title:**
-Install MX Linux Permanently — No Terminal, Just Clicks (Episode 3)
+Install MX Linux Permanently — Replace Windows, Just Clicks (Episode 3 · Part 2)
 
 **Description:**
-You tested Linux from a USB. Now let's make it permanent.
+In Part 1, you tested MX Linux from a live USB — zero risk. Now let's make it permanent and replace Windows completely.
 
 ⚠️ IMPORTANT: This install will erase everything on your target computer. Back up your files before starting.
 
@@ -143,8 +147,8 @@ By the end of this video, MX Linux is your main operating system — running fas
 18:00 — First boot!
 22:00 — What's next
 
-Previous episode: https://youtu.be/ [YOUR EP1 LINK]
-Next episode: Desktop tour and app store
+Previous part: Episode 3 · Part 1 — Ventoy & MX Linux Live USB (https://www.youtube.com/watch?v=Xz-17ymyMpi)
+Next part: Episode 3 · Part 3 — Try Linux Mint (Distro Hopping)
 
 ❤️ This course is 100% free — powered by open source software.
 
@@ -152,6 +156,43 @@ Next episode: Desktop tour and app store
 
 Tags:
 install mx linux, how to install linux, mx linux installation guide, linux install for beginners, install linux on old laptop, linux partition explained, use entire disk, linux installer walkthrough, mx linux 2026, linux from usb to hard drive, permanent linux install, linux for low spec pc, install linux 2gb ram, linux dual boot, erase windows install linux, linux installation step by step, linux beginner tutorial, how to install mx linux from usb, linux no terminal, graphical linux install, sudan linux install
+
+---
+
+## EPISODE 3 · PART 3 — Try Linux Mint (Distro Hopping)
+
+**Title:**
+Switch Distros Easily — Replace MX Linux with Linux Mint (Episode 3 · Part 3)
+
+**Description:**
+You went from Windows to MX Linux. Now comes the fun part: switching distros is easy — and I'll prove it by replacing MX Linux with Linux Mint on the very same USB.
+
+What you'll learn:
+- Why one Ventoy USB can hold many distros
+- Adding the Linux Mint ISO with a simple drag-and-drop
+- Booting the Mint live session — 100% safe
+- Installing Mint to replace MX Linux (same installer, same steps)
+- The confidence that you are never locked in
+
+No terminal. No fear. Just point-and-click, exactly like the earlier parts.
+
+🕒 TIMESTAMPS:
+0:00 — Why you can hop freely
+2:00 — Adding Linux Mint to the Ventoy USB
+5:00 — Booting the Mint live session
+8:00 — Installing Mint (replacing MX Linux)
+12:00 — First boot on Mint
+17:00 — Recap — you are never locked in
+
+Previous part: Episode 3 · Part 2 — Install MX Linux (https://youtu.be/ [YOUR PART2 LINK])
+Next episode: Episode 4 — Desktop Tour, Apps & Customization
+
+❤️ This course is 100% free — powered by open source software.
+
+#linuxmint #distrohopping #linux #trylinuxmint #switchlinux #beginnerguide
+
+Tags:
+linux mint, linux mint install, try linux mint, linux distro hopping, switch linux distros, linux mint vs mx linux, install linux mint replacing linux, linux mint on old laptop, linux mint xfce, linux mint tutorial for beginners, how to install linux mint, linux from usb, ventoy multiple distros, replace mx linux with mint, linux for beginners, linux distro comparison, why linux mint, linux mint 2026, linux mint download, sudo linux mint install
 
 ---
 

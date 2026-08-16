@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ep 3 · Part 3 — Try Linux Mint (Distro Hopping)</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#1a1a2e; color:#fff; font-family:Arial,sans-serif; overflow:hidden; height:100vh; }
+  .slide { display:none; width:100vw; height:100vh; padding:60px 80px; flex-direction:column; justify-content:center; align-items:center; text-align:center; }
+  .slide.active { display:flex; }
+  h1 { font-size:64px; font-weight:900; margin-bottom:30px; text-shadow:0 0 30px rgba(0,210,255,0.5); }
+  h2 { font-size:42px; font-weight:700; margin-bottom:20px; color:#00d2ff; }
+  h3 { font-size:32px; font-weight:400; margin-bottom:15px; }
+  .highlight { color:#f8c630; }
+  .mint { color:#8bdb43; }
+  .warn { color:#ff6b6b; }
+  .cyan { color:#00d2ff; }
+  .overlay { background:rgba(0,210,255,0.1); border:2px solid rgba(0,210,255,0.3); border-radius:16px; padding:30px 50px; margin:20px 0; font-size:28px; font-weight:bold; }
+  .overlay.warn-box { background:rgba(255,107,107,0.1); border-color:#ff6b6b; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; width:100%; max-width:900px; }
+  .card { background:rgba(255,255,255,0.05); border-radius:16px; padding:30px; border:1px solid rgba(255,255,255,0.1); }
+  .card h3 { font-size:28px; margin-bottom:10px; }
+  .card p { font-size:20px; opacity:0.8; line-height:1.5; }
+  ul { list-style:none; font-size:28px; line-height:2; }
+  ul li::before { content:"\25B8 "; color:#8bdb43; font-weight:bold; }
+  .nav { position:fixed; bottom:30px; left:50%; transform:translateX(-50%); display:flex; gap:12px; align-items:center; background:rgba(0,0,0,0.5); padding:12px 24px; border-radius:30px; }
+  .nav button { background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding:8px 20px; border-radius:20px; cursor:pointer; font-size:16px; }
+  .nav button:hover { background:#8bdb43; color:#1a1a2e; }
+  .counter { position:fixed; top:20px; right:30px; font-size:14px; opacity:0.3; }
+  @media (max-width:768px) {
+    h1 { font-size:36px; }
+    h2 { font-size:28px; }
+    h3 { font-size:22px; }
+    .slide { padding:30px 20px; }
+    ul { font-size:22px; }
+    .grid { grid-template-columns:1fr; gap:20px; }
+    .overlay { padding:20px; font-size:20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="counter" id="counter">1 / 10</div>
+
+<!-- SLIDE 1: Title -->
+<div class="slide active" id="s1">
+  <h1>EPISODE 3 · PART 3</h1>
+  <h2>Try Linux Mint</h2>
+  <h3 class="highlight">Distro Hopping Made Easy</h3>
+  <div style="margin-top:40px;font-size:22px;opacity:0.7;">MX → Mint → any distro you like. No fear.</div>
+</div>
+
+<!-- SLIDE 2: Why You Can Hop -->
+<div class="slide" id="s2">
+  <h1>Why You Can Switch Freely</h1>
+  <div style="font-size:26px;max-width:760px;line-height:1.8;">
+    <p>▸ One <span class="mint">Ventoy USB</span> holds many distros at once</p>
+    <p>▸ No re-flashing — just copy an <span class="highlight">ISO file</span> like a document</p>
+    <p>▸ MX Linux &amp; Linux Mint are both <span class="cyan">Debian-based</span> — very similar</p>
+    <p>▸ Your skills carry over: menu, software store, settings</p>
+  </div>
+  <div class="overlay" style="margin-top:30px;">Choosing a distro is NOT a lifetime commitment</div>
+</div>
+
+<!-- SLIDE 3: Add Mint to USB -->
+<div class="slide" id="s3">
+  <h1>Add Linux Mint to the USB</h1>
+  <div class="grid">
+    <div class="card">
+      <h3>Download</h3>
+      <p style="font-size:20px;">linuxmint.com → Download → XFCE edition (~2GB)</p>
+    </div>
+    <div class="card">
+      <h3>Drag &amp; Drop</h3>
+      <p style="font-size:20px;">Copy the Mint ISO into your Ventoy USB, next to MX Linux</p>
+    </div>
+  </div>
+  <div class="overlay" style="margin-top:30px;">Two distros, one USB — like a menu 🍽️</div>
+</div>
+
+<!-- SLIDE 4: Boot & Menu -->
+<div class="slide" id="s4">
+  <h1>Boot and Choose</h1>
+  <div style="font-size:24px;max-width:720px;line-height:1.9;">
+    <p>▸ Plug in USB → Restart → Spam boot key (F12/F9/ESC)</p>
+    <p>▸ Ventoy menu now shows <span class="mint">MX Linux</span> AND <span class="mint">Linux Mint</span></p>
+    <p>▸ Pick <span class="highlight">Linux Mint</span> and press Enter</p>
+  </div>
+  <div class="overlay warn-box" style="margin-top:30px;">Your MX installation is untouched — this is the LIVE session</div>
+</div>
+
+<!-- SLIDE 5: Mint Live Session -->
+<div class="slide" id="s5">
+  <h1>The Mint Live Desktop</h1>
+  <div style="font-size:26px;max-width:740px;line-height:1.9;">
+    <p>▸ Running entirely from the USB — your hard drive is safe</p>
+    <p>▸ Bright, fresh, familiar desktop</p>
+    <p>▸ Start menu, taskbar, file manager — just like MX Linux</p>
+  </div>
+  <div style="margin-top:25px;font-size:22px;opacity:0.7;">Linux is Linux — the distro is just the packaging and polish</div>
+</div>
+
+<!-- SLIDE 6: Same Apps -->
+<div class="slide" id="s6">
+  <h1>Everything Looks Familiar</h1>
+  <div class="overlay" style="font-size:34px;">Software Manager 🛒</div>
+  <div style="max-width:680px;margin-top:25px;font-size:22px;line-height:1.8;">
+    <p>▸ Search LibreOffice, VLC, Firefox — one click away</p>
+    <p>▸ Same apps you used in Episode 1</p>
+    <p>▸ Same look, same feel, same freedom</p>
+  </div>
+</div>
+
+<!-- SLIDE 7: Install Mint -->
+<div class="slide" id="s7">
+  <h1>Replace MX with Mint</h1>
+  <div style="font-size:26px;max-width:720px;line-height:1.9;">
+    <p>▸ Double-click <span class="highlight">Install Linux Mint</span></p>
+    <p>▸ Same friendly screens: language, keyboard, time zone</p>
+    <p>▸ Select <span class="cyan">"Erase disk and install Linux Mint"</span></p>
+  </div>
+  <div class="overlay warn-box" style="margin-top:30px;font-size:22px;">
+    ⚠️ Yes — Mint replaces MX on this machine, exactly as MX replaced Windows
+  </div>
+</div>
+
+<!-- SLIDE 8: Progress & Restart -->
+<div class="slide" id="s8">
+  <h1>Install &amp; Restart</h1>
+  <ul style="max-width:600px;">
+    <li>Enter name, username, password</li>
+    <li>Click Install → progress bar (a few minutes)</li>
+    <li>When it finishes → remove USB → restart</li>
+  </ul>
+  <div class="overlay" style="margin-top:30px;">✅ Mint boots from your hard drive — MX is gone</div>
+</div>
+
+<!-- SLIDE 9: First Boot on Mint -->
+<div class="slide" id="s9">
+  <h1>Welcome to Linux Mint</h1>
+  <div style="font-size:28px;">
+    <p>Log in with your new password</p>
+    <p style="margin-top:20px;">Open the menu — browse settings — install an app</p>
+    <p class="mint" style="margin-top:20px;font-size:36px;">Windows → MX → Mint. Nothing broke. 🤝</p>
+  </div>
+</div>
+
+<!-- SLIDE 10: Summary -->
+<div class="slide" id="s10">
+  <h1>✅ Ep 3 · Part 3 Summary</h1>
+  <ul style="text-align:left;max-width:620px;">
+    <li>One Ventoy USB holds many distros</li>
+    <li>Added Linux Mint with a simple drag &amp; drop</li>
+    <li>Live session was 100% safe</li>
+    <li>Installed Mint by replacing MX — just like MX replaced Windows</li>
+    <li>You are never locked in</li>
+  </ul>
+  <div style="margin-top:30px;font-size:20px;opacity:0.6;">Challenge: add one more ISO (e.g. antiX) and try it live. No risk.</div>
+</div>
+
+<!-- THANK YOU SLIDE -->
+<div class="slide" id="thanks">
+  <h1>🙏 Thank You</h1>
+  <p style="font-size:24px;max-width:700px;line-height:1.8;">Distro hopping is only possible because of open source.</p>
+  <ul style="max-width:600px;font-size:22px;line-height:1.8;">
+    <li>The <span class="highlight">Linux Mint team</span> — for a friendly, familiar desktop</li>
+    <li>The <span class="highlight">MX Linux team</span> — our course distro</li>
+    <li>The <span class="highlight">Ventoy developers</span> — many ISOs, one USB</li>
+    <li>The <span class="highlight">Debian project</span> — the rock-solid base both share</li>
+    <li>Every developer who writes free code and documentation</li>
+  </ul>
+  <p style="margin-top:30px;font-size:20px;">Open source means you can always try something new. 🌱</p>
+</div>
+
+<!-- Navigation -->
+<div class="nav">
+  <button onclick="goSlide(-1)">◀ Prev</button>
+  <span id="pageNum">1</span>
+  <button onclick="goSlide(1)">Next ▶</button>
+</div>
+
+<script>
+let current = 0;
+const slides = document.querySelectorAll('.slide');
+
+function showSlide(n) {
+  slides.forEach(s => s.classList.remove('active'));
+  slides[n].classList.add('active');
+  document.getElementById('pageNum').textContent = (n+1) + ' / ' + slides.length;
+  document.getElementById('counter').textContent = (n+1) + ' / ' + slides.length;
+}
+
+function goSlide(dir) {
+  current = Math.max(0, Math.min(slides.length-1, current + dir));
+  showSlide(current);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'ArrowDown') { e.preventDefault(); goSlide(1); }
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); goSlide(-1); }
+});
+
+showSlide(0);
+</script>
+</body>
+</html>

@@ -1,5 +1,7 @@
-# Episode 2 — Try Before You Install
-**Duration:** 22 minutes
+# Episode 3 · Part 1 — Ventoy & MX Linux Live USB
+**Series position:** Episode 3, Part 1 of 3 (Ep 2 reserved)
+**Duration:** 26:06 (published)
+**Watch:** https://www.youtube.com/watch?v=Xz-17ymyMpi
 **Target:** Absolute beginners, Sudanese communities, 2-4 GB RAM laptops
 **Approach:** Zero risk. Live USB demo. GUI only.
 **Instructor:** Saltibin
@@ -14,7 +16,7 @@ Hold up a USB drive. Show your laptop booting from USB into MX Linux desktop.
 ### Script
 "Salam aleikum. Welcome back to Digital Independence using Open Source.
 
-Last week, I showed you what Linux can do — running Office, design tools, AI, all on an old laptop. Today, you get to try it yourself. And the best part: your Windows files stay completely safe.
+Last time, in Episode 1, I showed you what Linux can do — running Office, design tools, AI, all on an old laptop. This is Episode 3, Part 1 of 3. Today you get to try Linux yourself. And the best part: your Windows files stay completely safe.
 
 You need one thing: a USB flash drive, 8GB or larger. That's it.
 
@@ -106,7 +108,7 @@ Show summary screen. Then credits.
 
 This week, I want you to actually do it. Download MX Linux, make the USB, and boot into the live environment. Just explore. Click around. Open the menu. See how fast it feels.
 
-Next week: we make this permanent. We install MX Linux on your hard drive.
+Next video — Part 2 of Episode 3: we install MX Linux permanently on your hard drive, replacing Windows. Then Part 3: we show you how easy it is to hop to another distro — Linux Mint — without any problem.
 
 None of this would exist without the open-source community — the MX Linux team, the Ventoy developers, the Debian project, and every contributor who gives their code away for free.
 
@@ -116,8 +118,9 @@ I'm Saltibin. See you in the next episode."
 
 ## Links for Description
 
+- Watch (published): https://www.youtube.com/watch?v=Xz-17ymyMpi
 - GitHub: https://github.com/saltcotraining-geoai/Digital-Independence-using-Open-source
-- Full playlist: https://youtube.com/playlist?list=PL_saltcotraining-geoai
+- Full playlist: https://youtube.com/playlist?list=PLdjv-OFwEiNg
 - Presentation slides: https://github.com/saltcotraining-geoai/Digital-Independence-using-Open-source/tree/main/presentations
 - MX Linux: https://mxlinux.org
 - Ventoy: https://ventoy.net

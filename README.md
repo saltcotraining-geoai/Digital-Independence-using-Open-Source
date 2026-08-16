@@ -1,6 +1,6 @@
 # Digital Independence using Open Source
 
-A free 10-episode course taking absolute beginners from zero to Linux user — all on 2GB-4GB RAM laptops. Designed for Sudanese communities and anyone with limited resources.
+A free course taking absolute beginners from zero to Linux user — all on 2GB-4GB RAM laptops. Designed for Sudanese communities and anyone with limited resources. Episode 3 is split into 3 parts (try → install → distro-hop) so each video stays 20-25 min.
 
 **Instructor:** Saltibin | **Language:** Simple English | **Schedule:** One episode every 2 weeks | **Duration:** 20-25 min each
 
@@ -8,7 +8,7 @@ A free 10-episode course taking absolute beginners from zero to Linux user — a
 
 ## 📺 Course Playlist
 
-[Digital Independence using Open Source — YouTube Playlist](https://youtube.com/playlist?list=PL_saltcotraining-geoai)
+[Digital Independence using Open Source — YouTube Playlist](https://youtube.com/playlist?list=PLdjv-OFwEiNg)
 
 ---
 
@@ -16,9 +16,11 @@ A free 10-episode course taking absolute beginners from zero to Linux user — a
 
 | # | Episode Title | What You Learn | Phase |
 |---|---|---|---|
-| 1 | [Your Laptop is Not Dead Yet](presentations/episode1_script.md) | What Linux can do — Office, AI, Media, all on old hardware | GUI |
-| 2 | [Try Before You Install](presentations/episode2_script.md) | Create a live USB with Ventoy. Boot Linux safely. Zero risk. | GUI |
-| 3 | [Make It Yours](presentations/episode3_script.md) | Permanent install. Graphical installer. No terminal. | GUI |
+| 1 | [Your Old Laptop Is Not Dead](presentations/episode1_script.md) | What Linux can do — Office, AI, Media, all on old hardware | GUI |
+| 2 | *reserved* | *Ep 2 comes later* | — |
+| **3 · Part 1** | [Ventoy & MX Linux Live USB](presentations/episode3_part1_live_usb.md) · [Watch](https://www.youtube.com/watch?v=Xz-17ymyMpi) | Create a live USB with Ventoy. Boot MX Linux safely. Zero risk. | GUI |
+| **3 · Part 2** | [Install MX Linux (Replace Windows)](presentations/episode3_part2_install.md) | Permanent install. Graphical installer. Replaces Windows completely. | GUI |
+| **3 · Part 3** | [Try Linux Mint (Distro Hopping)](presentations/episode3_part3_linux_mint.md) | Replace MX Linux with Linux Mint. Hopping between distros is easy. | GUI |
 | 4 | [Make Yourself at Home](presentations/episode4_script.md) | Desktop tour. Software Manager. Install apps with clicks. | GUI |
 | 5 | [The Terminal is Not Scary](presentations/episode5_script.md) | pwd, ls, cd. The terminal is just a text file manager. | CLI |
 | 6 | [Create Like a Pro](presentations/episode6_script.md) | mkdir, touch, nano, rm. Create and manage files faster. | CLI |
@@ -47,10 +49,14 @@ A free 10-episode course taking absolute beginners from zero to Linux user — a
 ├── SERIES.md                         # Full series roadmap
 ├── presentations/
 │   ├── ep1_what_is_linux.html        # Slide presentation (open in browser)
-│   ├── ep2_live_usb.html             # → key to navigate
-│   ├── ...                           # (ep3 through ep10)
-│   ├── episode1_script.md            # Narration script for recording
-│   ├── episode2_script.md            # (ep3 through ep10)
+│   ├── ep3_part1_live_usb.html       # Ep 3 · Part 1 slides (Ventoy live USB)
+│   ├── ep3_part2_install.html        # Ep 3 · Part 2 slides (Install MX Linux)
+│   ├── ep3_part3_linux_mint.html     # Ep 3 · Part 3 slides (Try Linux Mint)
+│   ├── ...                           # (ep4 through ep10)
+│   ├── episode1_script.md            # Narration script (Ep 1)
+│   ├── episode3_part1_live_usb.md    # Narration script (Ep 3 · Part 1)
+│   ├── episode3_part2_install.md     # Narration script (Ep 3 · Part 2)
+│   ├── episode3_part3_linux_mint.md  # Narration script (Ep 3 · Part 3)
 │   ├── presentation.css              # Shared styles
 │   └── presentation.js               # Slide navigation
 ├── recordings/                       # Episode recordings & thumbnails
@@ -62,9 +68,10 @@ A free 10-episode course taking absolute beginners from zero to Linux user — a
 ## 🚀 Quick Start
 
 1. Watch Episode 1 to see what Linux can do
-2. Watch Episode 2 → Download MX Linux + Ventoy → Boot live USB
-3. Watch Episode 3 → Install permanently
-4. Continue through Episode 10
+2. Watch [Episode 3 · Part 1](https://www.youtube.com/watch?v=Xz-17ymyMpi) → Download MX Linux + Ventoy → Boot live USB
+3. Watch Episode 3 · Part 2 → Install MX Linux permanently (replaces Windows)
+4. Watch Episode 3 · Part 3 → Try Linux Mint (distro hopping, zero fear)
+5. Continue through Episode 4 → 10
 
 No prior experience needed. No terminal required for Episodes 1-4.
 
@@ -91,5 +98,5 @@ Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA)
 
 ## 📬 Connect
 
-- **YouTube:** [saltcotraining-geoai](https://youtube.com/@saltcotraining-geoai)
+- **YouTube:** [saltcoTraining](https://www.youtube.com/channel/UCZTwXIRdgpYCmP0FeLxg0og)
 - **GitHub:** [saltcotraining-geoai/Digital-Independence-using-Open-source](https://github.com/saltcotraining-geoai/Digital-Independence-using-Open-source)

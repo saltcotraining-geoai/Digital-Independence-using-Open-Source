@@ -1,4 +1,5 @@
-# Episode 3 — Make It Yours
+# Episode 3 · Part 2 — Install MX Linux (Replace Windows)
+**Series position:** Episode 3, Part 2 of 3
 **Duration:** 24 minutes
 **Target:** Absolute beginners, Sudanese communities, 2-4 GB RAM laptops
 **Approach:** GUI only. Graphical installer.
@@ -12,7 +13,7 @@
 Hold up the Ventoy USB. Show the MX Installer icon on the desktop.
 
 ### Script
-"Salam aleikum. Last week, we tested Linux from a USB. Your Windows files are still safe. Today, we make it permanent.
+"Salam aleikum. In Part 1, we tested MX Linux from a live USB — zero risk, and your Windows files are still safe. This is Episode 3, Part 2. Today, we make it permanent and replace Windows completely.
 
 Important warning: This will erase everything on your computer. If you have school projects, family photos, or important documents — back them up first. Copy them to an external drive or cloud storage before we begin.
 
@@ -105,7 +106,7 @@ Show summary screen. Then credits.
 4. Created your user account
 5. Booted into your permanent Linux system for the first time
 
-This week, just get comfortable with your new desktop. Open menus, look at settings, explore. Next week, we install applications and customize the desktop — all with the mouse, no terminal.
+This week, just get comfortable with your new desktop. Open menus, look at settings, explore. Next video — Part 3 of Episode 3: we show you how easy it is to switch to another distro, like Linux Mint, without any problem.
 
 MX Linux is built on Debian, which is one of the most stable and respected Linux distributions in the world. Thanks to the Debian team, the MX Linux team, and every developer who makes open source possible.
 
@@ -116,7 +117,7 @@ I'm Saltibin. See you in the next episode."
 ## Links for Description
 
 - GitHub: https://github.com/saltcotraining-geoai/Digital-Independence-using-Open-source
-- Full playlist: https://youtube.com/playlist?list=PL_saltcotraining-geoai
+- Full playlist: https://youtube.com/playlist?list=PLdjv-OFwEiNg
 - Presentation slides: https://github.com/saltcotraining-geoai/Digital-Independence-using-Open-source/tree/main/presentations
 - MX Linux: https://mxlinux.org
 - Debian: https://debian.org
