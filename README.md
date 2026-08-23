@@ -19,7 +19,7 @@ A free course taking absolute beginners from zero to Linux user — all on 2GB-4
 | 1 | [Your Old Laptop Is Not Dead](presentations/episode1_script.md) | What Linux can do — Office, AI, Media, all on old hardware | GUI |
 | 2 | *reserved* | *Ep 2 comes later* | — |
 | **3 · Part 1** | [Ventoy & MX Linux Live USB](presentations/episode3_part1_live_usb.md) · [Watch](https://www.youtube.com/watch?v=Xz-17ymyMpi) | Create a live USB with Ventoy. Boot MX Linux safely. Zero risk. | GUI |
-| **3 · Part 2** | [Install MX Linux (Replace Windows)](presentations/episode3_part2_install.md) | Permanent install. Graphical installer. Replaces Windows completely. | GUI |
+| **3 · Part 2** | [Install MX Linux (Replace Windows)](presentations/episode3_part2_install.md) · 22:32 · `part2_revised3_ALTERED.mp4` | Permanent install. Graphical installer. Replaces Windows completely. | GUI |
 | **3 · Part 3** | [Try Linux Mint (Distro Hopping)](presentations/episode3_part3_linux_mint.md) | Replace MX Linux with Linux Mint. Hopping between distros is easy. | GUI |
 | 4 | [Make Yourself at Home](presentations/episode4_script.md) | Desktop tour. Software Manager. Install apps with clicks. | GUI |
 | 5 | [The Terminal is Not Scary](presentations/episode5_script.md) | pwd, ls, cd. The terminal is just a text file manager. | CLI |

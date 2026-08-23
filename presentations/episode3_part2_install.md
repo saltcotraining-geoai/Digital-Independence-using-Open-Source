@@ -1,6 +1,8 @@
 # Episode 3 · Part 2 — Install MX Linux (Replace Windows)
 **Series position:** Episode 3, Part 2 of 3
-**Duration:** 24 minutes
+**Duration:** 22:32
+**Final video:** `part2_revised3_ALTERED.mp4` (H.264 1080p, AAC, -14 LUFS, faststart)
+**Source:** `part2_revised3.mp4`
 **Target:** Absolute beginners, Sudanese communities, 2-4 GB RAM laptops
 **Approach:** GUI only. Graphical installer.
 **Instructor:** Saltibin
@@ -92,7 +94,7 @@ You now have a complete Linux operating system installed and running. This is yo
 
 ---
 
-## 22:00-24:00 — Recap & Credits
+## 21:30-22:32 — Recap & Credits
 
 ### Visual
 Show summary screen. Then credits.
