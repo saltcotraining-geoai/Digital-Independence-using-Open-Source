@@ -20,7 +20,7 @@ A free course taking absolute beginners from zero to Linux user — all on 2GB-4
 | 2 | *reserved* | *Ep 2 comes later* | — |
 | **3 · Part 1** | [Ventoy & MX Linux Live USB](presentations/episode3_part1_live_usb.md) · [Watch](https://www.youtube.com/watch?v=Xz-17ymyMpi) · [Quiz](quizzes/quiz_ep3_part1.md) | Create a live USB with Ventoy. Boot MX Linux safely. Zero risk. | GUI |
 | **3 · Part 2** | [Install MX Linux (Replace Windows)](presentations/episode3_part2_install.md) · [Watch](https://youtu.be/5zpXFQenrMQ) · 22:32 · [Quiz](quizzes/quiz_ep3_part2.md) | Permanent install. Graphical installer. Replaces Windows completely. | GUI |
-| **3 · Part 3** | [Try Linux Mint (Distro Hopping)](presentations/episode3_part3_linux_mint.md) · 22:21 · [Quiz](quizzes/quiz_ep3_part3.md) | Replace MX Linux with Linux Mint. Hopping between distros is easy. | GUI |
+| **3 · Part 3** | [Try Linux Mint (Distro Hopping)](presentations/episode3_part3_linux_mint.md) · [Watch](https://youtu.be/d_814nzrAFQ) · 22:21 · [Quiz](quizzes/quiz_ep3_part3.md) | Replace MX Linux with Linux Mint. Hopping between distros is easy. | GUI |
 | 4 | [Make Yourself at Home](presentations/episode4_script.md) | Desktop tour. Software Manager. Install apps with clicks. | GUI |
 | 5 | [The Terminal is Not Scary](presentations/episode5_script.md) | pwd, ls, cd. The terminal is just a text file manager. | CLI |
 | 6 | [Create Like a Pro](presentations/episode6_script.md) | mkdir, touch, nano, rm. Create and manage files faster. | CLI |
